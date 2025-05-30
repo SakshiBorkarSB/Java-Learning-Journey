@@ -1,4 +1,4 @@
-public class basics {
+public class 0Java {
    public basics() {
    }
 
