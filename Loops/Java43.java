@@ -1,0 +1,17 @@
+// Print reverse of a given number
+
+import java.util.*;
+public class Java43{
+    public static void main(String args[]){
+        Scanner sc = new Scanner (System.in);
+        int n = 201004;
+
+        while (n > 0){
+            int lastDigit = n % 10;
+            System.out.print(lastDigit);
+            n = n / 10;
+        }
+        System.out.println();
+
+    }
+}
